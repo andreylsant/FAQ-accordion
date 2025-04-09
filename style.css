@@ -4,11 +4,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: var(--Purple);
 }
 
 :root{
     --White: hsl(0, 100%, 100%);
     --Purple: hsl(275, 100%, 97%);
-    --Purple: hsl(292, 16%, 49%);
-    --Purple: hsl(292, 42%, 14%);
+    --lilas: hsl(292, 16%, 49%);
+    --roxo: hsl(292, 42%, 14%);
+}
+
+.conteiner{
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 40vh;
+    z-index: 100;
+}
+
+.duvidas-Respostas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
