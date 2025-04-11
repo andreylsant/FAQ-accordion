@@ -4,7 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: var(--Purple);
+    font-family: "Montserrat", sans-serif;
+    
 }
 
 :root{
@@ -14,20 +15,34 @@
     --roxo: hsl(292, 42%, 14%);
 }
 
-.conteiner{
-    background-color: var(--White);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.conteiner-Principal{
+    background-color: var(--Purple);
+    width: 300px;
+    height: 600px;
     align-items: center;
-    width: 40vw;
-    height: 40vh;
-    z-index: 100;
+    justify-content: center;
+    margin: auto;
 }
 
-.duvidas-Respostas{
+.cabecalho{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+.estrela{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+h1{
+    font-weight: 700;
+    padding: 25px;
+}
+
+.duvida1{
+    display: flex;
+}
+span{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
 }
