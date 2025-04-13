@@ -15,13 +15,26 @@
     --roxo: hsl(292, 42%, 14%);
 }
 
-.conteiner-Principal{
+.plano-fundo{
+    width: 1350px;
+    overflow-x: hidden;
+}
+
+.conteiner{
     background-color: var(--Purple);
-    width: 300px;
-    height: 600px;
+}
+
+.conteiner-Principal{
+    background-color: var(--White);
+    width: 500px;
+    height: 500px;
     align-items: center;
     justify-content: center;
     margin: auto;
+    position: relative;
+    bottom: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px var(--lilas);
 }
 
 .cabecalho{
@@ -34,15 +47,20 @@
     height: 25px;
 }
 h1{
-    font-weight: 700;
-    padding: 25px;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 30px;
 }
 
 .duvida1{
     display: flex;
+    border-bottom: 1px var(--White) solid;
 }
 span{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     margin-left: 20px;
+}
+p{
+    font-size: 12px;
 }
